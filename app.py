@@ -10,11 +10,13 @@ CORS(app)  # Permite recibir peticiones desde HTML local o navegador
 
 # Configuración de conexión
 db_config = {
-    'host': 'localhost',
+    'host': 'switchback.proxy.rlwy.net',
+    'port': '41298',
     'user': 'root',
-    'password': '',
-    'database': 'jardin_emanuel'
+    'password': 'XeEzxhfYcdfJmtbmVLfykybmZXRuCswN',
+    'database': 'railway'
 }
+
 
 @app.route('/guardar_respuesta', methods=['POST'])
 def guardar_respuesta():
